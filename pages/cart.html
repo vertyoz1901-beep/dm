@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Корзина и заявка — мебельная фабрика «Dарина»</title>
+  <meta name="description" content="Соберите нужные позиции и отправьте одну заявку. Укажите город, имя и телефон — менеджер перезвонит, подтвердит наличие и посчитает доставку.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="../icons/favicon.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body data-root="../" data-page="cart">
+
+  <header id="header"></header>
+
+  <main>
+    <section class="section--tight">
+      <div class="wrap">
+        <nav class="crumbs"><a href="../index.html">Главная</a> / <span>Корзина</span></nav>
+
+        <div class="section-head">
+          <p class="eyebrow">Шаг 1 из 2 — соберите список</p>
+          <h1>Корзина</h1>
+          <p class="lead">
+            Проверьте отделку, размер и количество. Дальше — три поля: город, имя и телефон.
+            Заявка со всем списком уйдёт менеджеру фабрики.
+          </p>
+        </div>
+
+        <div id="cart"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="../data.js" defer></script>
+  <script src="../photo-map.js" defer></script>
+  <script src="../dims-map.js" defer></script>
+  <script src="../script.js" defer></script>
+</body>
+</html>

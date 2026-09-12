@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Товар — мебельная фабрика «Dарина»</title>
+  <meta name="description" content="Характеристики, отделки и размеры позиции из каталога мебельной фабрики «Dарина». Товар в наличии, отгрузка со склада.">
+  <link rel="icon" href="../icons/favicon.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body data-root="../" data-page="product">
+
+  <header id="header"></header>
+
+  <main>
+    <section class="section--tight">
+      <div class="wrap">
+        <nav class="crumbs" id="crumbs"></nav>
+        <div id="product"></div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Берут в дополнение</p>
+          <h2 id="related-head">Смотрят вместе с этим</h2>
+        </div>
+        <div class="prod-grid" id="related"></div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Из той же категории</p>
+          <h2>Похожие товары</h2>
+        </div>
+        <div class="prod-grid" id="similar"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="../data.js" defer></script>
+  <script src="../photo-map.js" defer></script>
+  <script src="../dims-map.js" defer></script>
+  <script src="../script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Каталог мебели из наличия — фабрика «Dарина»</title>
+  <meta name="description" content="Каталог мебельной фабрики «Dарина»: кровати из массива, интерьерные кровати, спальные гарнитуры, шкафы, комоды, тумбы, матрасы, столы и стулья. Все позиции в наличии, цены розничные.">
+  <link rel="icon" href="../icons/favicon.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body data-root="../" data-page="catalog">
+
+  <header id="header"></header>
+
+  <main>
+    <section class="section--tight">
+      <div class="wrap">
+        <nav class="crumbs"><a href="../index.html">Главная</a> / <span>Каталог</span></nav>
+
+        <div class="section-head">
+          <p class="eyebrow">Со склада в Белых Берегах</p>
+          <h1 id="catalog-title">Весь каталог</h1>
+          <p class="lead">
+            Отделку и размер переключайте прямо в карточке — цена пересчитается. Добавляйте что нужно в корзину
+            и отправляйте одной заявкой: менеджер подтвердит наличие и посчитает доставку.
+          </p>
+        </div>
+
+        <div class="filters" id="catalog-filters"></div>
+
+        <div class="toolbar">
+          <p class="toolbar-count" id="catalog-count"></p>
+          <label class="sr-row">
+            <select class="select" id="catalog-sort" aria-label="Сортировка">
+              <option value="default">По умолчанию</option>
+              <option value="asc">Сначала дешевле</option>
+              <option value="desc">Сначала дороже</option>
+              <option value="name">По названию</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="prod-grid" id="catalog-grid"></div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="slab reveal">
+          <div class="slab-2">
+            <div>
+              <p class="eyebrow">Не нашли нужное</p>
+              <h2>Позвоните — подскажем по остаткам</h2>
+              <p>Ассортимент склада меняется. Если нужной отделки нет в списке или интересует опт, менеджер проверит наличие и пришлёт актуальный прайс.</p>
+            </div>
+            <div>
+              <a class="btn btn--primary" href="contacts.html">Контакты менеджеров</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="../data.js" defer></script>
+  <script src="../photo-map.js" defer></script>
+  <script src="../dims-map.js" defer></script>
+  <script src="../script.js" defer></script>
+</body>
+</html>
