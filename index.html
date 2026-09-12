@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мебельная фабрика «Dарина» — мебель из массива сосны со склада, Брянск</title>
+  <meta name="description" content="Мебельная фабрика «Dарина» с 2005 года: кровати, спальные гарнитуры, шкафы, комоды, тумбы и матрасы из массива сосны. Продажа из наличия в розницу и оптом, доставка по всей России.">
+  <meta name="keywords" content="мебельная фабрика Дарина, мебель из массива сосны, кровати Брянск, спальные гарнитуры оптом, мебель со склада">
+  <link rel="icon" href="icons/favicon.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-root="" data-page="index">
+
+  <header id="header"></header>
+
+  <main>
+    <!-- ============================ Hero ============================ -->
+    <section class="hero">
+      <!-- Фон первого экрана: лежит под текстом и занимает всю секцию -->
+      <figure class="hero-media">
+        <div class="ph">
+          <svg viewBox="0 0 24 24"><path d="M12 3 3 7.5v9L12 21l9-4.5v-9L12 3z"/><path d="M3 7.5 12 12l9-4.5M12 12v9"/></svg>
+          <span>Фото: кровать «Каприз»</span>
+        </div>
+        <img data-hero data-fallback="kapriz" alt="Кровать «Каприз» из массива сосны в интерьере спальни" fetchpriority="high" decoding="async">
+      </figure>
+
+      <div class="wrap hero-inner">
+        <div class="hero-side">
+          <p class="hero-tag"><i></i>Отгружаем со склада, не под заказ</p>
+
+          <h1>Мебель из массива&nbsp;сосны, <em>которая уже готова</em></h1>
+
+          <p class="hero-text">
+            Фабрика «Dарина» работает в Брянской области с 2005 года. Кровати, спальни, шкафы и матрасы
+            собраны и лежат на складе — вы выбираете позиции, мы отгружаем. Розница и опт, доставка по всей России.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn--primary" href="pages/catalog.html">Смотреть каталог</a>
+            <a class="btn btn--ghost" href="pages/delivery.html">Как считается доставка</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Полоса цифр: значения «взлетают» при появлении на экране -->
+      <div class="stats wrap-full">
+        <div class="stat">
+          <p class="stat-v"><span data-count="20" data-dur="1400">0</span></p>
+          <p class="stat-k">лет на рынке, с 2005</p>
+        </div>
+        <div class="stat">
+          <p class="stat-v"><span data-count="63" data-dur="1400">0</span></p>
+          <p class="stat-k">позиций в наличии</p>
+        </div>
+        <div class="stat">
+          <p class="stat-v"><span data-count="85" data-dur="1400">0</span></p>
+          <p class="stat-k">регионов доставки</p>
+        </div>
+        <div class="stat">
+          <p class="stat-v"><span data-count="12000" data-dur="1800">0</span><small>+</small></p>
+          <p class="stat-k">отгруженных заказов</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Массив сосны</span><span>Отгрузка со склада</span><span>Розница и опт</span>
+        <span>Собственное производство</span><span>Доставка по России</span><span>Брянск · Белые Берега</span>
+      </div>
+    </div>
+
+    <!-- ========================== Категории ========================== -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Каталог</p>
+          <h2>Что есть на складе прямо сейчас</h2>
+          <p class="lead">Двенадцать групп: от табурета за две тысячи до полного спального гарнитура. Всё собрано и упаковано.</p>
+        </div>
+        <div class="cat-grid" id="home-cats"></div>
+      </div>
+    </section>
+
+    <!-- ============================ Хиты ============================ -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Забирают чаще всего</p>
+          <h2>Хиты продаж</h2>
+          <p class="lead">Отделку и размер можно переключить прямо в карточке — цена пересчитается сразу.</p>
+        </div>
+        <div class="prod-grid" id="home-hits"></div>
+        <p class="mt-l">
+          <a class="btn btn--line" href="pages/catalog.html">Весь каталог — 63 позиции</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================== Доверие =========================== -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="trust-grid">
+          <article class="trust reveal">
+            <svg viewBox="0 0 24 24"><path d="M12 3 6.5 11h3L5 17h14l-4.5-6h3L12 3zM12 17v4"/></svg>
+            <h3>Массив сосны</h3>
+            <p>Экологичный гипоаллергенный материал. Своя сушка и обработка на производстве.</p>
+          </article>
+          <article class="trust reveal">
+            <svg viewBox="0 0 24 24"><path d="M12 3 3 7.5v9L12 21l9-4.5v-9L12 3z"/><path d="M3 7.5 12 12l9-4.5M12 12v9"/></svg>
+            <h3>Из наличия</h3>
+            <p>Не ждёте цикл производства: позиции лежат на складе и отгружаются сразу после заявки.</p>
+          </article>
+          <article class="trust reveal">
+            <svg viewBox="0 0 24 24"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7z"/><circle cx="7" cy="18" r="1.7"/><circle cx="17.5" cy="18" r="1.7"/></svg>
+            <h3>Доставка по России</h3>
+            <p>Работаем с проверенными транспортными компаниями. Стоимость считает менеджер под ваш адрес.</p>
+          </article>
+          <article class="trust reveal">
+            <svg viewBox="0 0 24 24"><path d="M12 3 5 6v6c0 4.4 3 7.9 7 9 4-1.1 7-4.6 7-9V6l-7-3z"/><path d="m9 12 2 2 4-4"/></svg>
+            <h3>Цена от производителя</h3>
+            <p>Продаём напрямую с фабрики, без наценки посредников. Для опта — отдельный прайс.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= Опт ============================= -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="slab reveal">
+          <div class="slab-2">
+            <div>
+              <p class="eyebrow">Оптом</p>
+              <h2>Магазинам, объектам и мебельным салонам</h2>
+              <p>Отгружаем партиями со склада в Белых Берегах. Розничные цены на сайте — ориентир; оптовый прайс присылаем после заявки.</p>
+            </div>
+            <div>
+              <ul class="slab-list">
+                <li>Партии от одной фуры и мелкий опт</li>
+                <li>Отдельный прайс и условия по объёму</li>
+                <li>Отгрузка самовывозом или через ТК</li>
+                <li>Стабильные позиции: одна модель — один артикул из года в год</li>
+              </ul>
+              <a class="btn btn--primary" href="pages/contacts.html">Запросить оптовый прайс</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================== Как заказать ========================== -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Порядок работы</p>
+          <h2>Четыре шага до отгрузки</h2>
+        </div>
+        <div class="steps">
+          <article class="step reveal">
+            <span class="step-n">1</span>
+            <div>
+              <h3>Собираете корзину</h3>
+              <p>Отмечаете позиции с нужной отделкой и размером — хоть одну, хоть десять.</p>
+            </div>
+          </article>
+          <article class="step reveal">
+            <span class="step-n">2</span>
+            <div>
+              <h3>Отправляете заявку</h3>
+              <p>Указываете город, имя и телефон. Заявка со всем списком уходит менеджеру.</p>
+            </div>
+          </article>
+          <article class="step reveal">
+            <span class="step-n">3</span>
+            <div>
+              <h3>Менеджер перезванивает</h3>
+              <p>Подтверждает наличие, считает доставку до вашего города и выставляет счёт.</p>
+            </div>
+          </article>
+          <article class="step reveal">
+            <span class="step-n">4</span>
+            <div>
+              <h3>Отгружаем</h3>
+              <p>После оплаты передаём заказ в транспортную компанию или готовим к самовывозу.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================== Интерьеры ========================== -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Как это выглядит дома</p>
+          <h2>Наша мебель в интерьере</h2>
+        </div>
+        <div class="gallery" id="home-gallery"></div>
+      </div>
+    </section>
+
+    <!-- =========================== Доставка =========================== -->
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="slab reveal">
+          <div class="slab-2">
+            <div>
+              <p class="eyebrow">Доставка</p>
+              <h2>Возим по всей России</h2>
+              <p>
+                Цены в каталоге — за мебель, без доставки. Точную стоимость менеджер считает после заявки:
+                она зависит от города, объёма заказа и способа доставки.
+              </p>
+            </div>
+            <div>
+              <ul class="slab-list">
+                <li>Транспортные компании — в любой город России</li>
+                <li>Доставка по Брянску и области своим транспортом</li>
+                <li>Самовывоз со склада: Белые Берега, Транспортная, 34</li>
+                <li>Приём по накладной: проверяете упаковку и комплектность</li>
+              </ul>
+              <a class="btn btn--primary" href="pages/delivery.html">Условия доставки и оплаты</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="data.js" defer></script>
+  <script src="photo-map.js" defer></script>
+  <script src="dims-map.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
