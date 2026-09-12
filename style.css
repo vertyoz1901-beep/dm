@@ -298,22 +298,29 @@ p { color: var(--ink-2); }
 body.is-locked { overflow: hidden; }
 
 /* ============================= Hero ============================= */
+/* Первый экран: фотография занимает всю секцию, текст лежит поверх неё.
+   Высота — по экрану за вычетом шапки, полоса с цифрами прижата к низу. */
 .hero {
   position: relative;
   overflow: hidden;
   background: var(--bg);
   color: var(--ink);
-  padding-block: clamp(2.5rem, 9vw, 5rem) 0;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - var(--head-h));
+  min-height: calc(100svh - var(--head-h));
+  padding-block: 0;
 }
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: -30% -20% auto -20%;
-  height: 90%;
-  background: radial-gradient(60% 60% at 30% 20%, rgba(22, 22, 28, .05), transparent 70%);
-  pointer-events: none;
+
+.hero-inner {
+  position: relative;
+  z-index: 2;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-block: clamp(2.25rem, 8vw, 4.5rem);
 }
-.hero-inner { position: relative; z-index: 2; }
+.hero-side { position: relative; z-index: 2; max-width: 54ch; }
 
 .hero-tag {
   display: inline-flex;
@@ -353,14 +360,29 @@ body.is-locked { overflow: hidden; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: 1.75rem; }
 
 .hero-media {
-  position: relative;
-  margin-top: 2.25rem;
-  border-radius: var(--r-l) var(--r-l) 0 0;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  margin: 0;
+  border-radius: 0;
   overflow: hidden;
-  aspect-ratio: 4 / 3;
-  background: var(--walnut-2);
+  background: var(--bg-2);
 }
 .hero-media img { width: 100%; height: 100%; object-fit: cover; }
+
+/* Светлая вуаль поверх фото: без неё тёмный текст теряется на снимке.
+   На телефоне она идёт сверху вниз, на широком экране — слева направо,
+   чтобы справа оставалась открытая часть интерьера. */
+.hero-media::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom,
+    rgba(255, 255, 255, .9) 0%,
+    rgba(255, 255, 255, .74) 45%,
+    rgba(255, 255, 255, .3) 100%);
+  pointer-events: none;
+}
 
 /* Полоса «летающих» цифр */
 .stats {
@@ -1084,8 +1106,6 @@ body.is-locked { overflow: hidden; }
   .stats { grid-template-columns: repeat(4, 1fr); }
   .stat { padding: 1.4rem var(--pad); }
 
-  .hero { padding-block: clamp(3.5rem, 7vw, 6rem) 0; }
-  .hero-media { aspect-ratio: 21 / 9; margin-top: 3rem; }
 
   .cat-grid { grid-template-columns: repeat(3, 1fr); }
   .cat-card { min-height: 168px; padding: 1.1rem; }
@@ -1137,9 +1157,13 @@ body.is-locked { overflow: hidden; }
   .head-phone span { font-size: .64rem; color: var(--muted); }
   .header.is-stuck .head-phone span { color: var(--muted); }
 
-  .hero-inner { display: grid; grid-template-columns: 1.05fr .95fr; gap: 3rem; align-items: center; }
-  .hero-media { margin-top: 0; aspect-ratio: 4 / 3.4; border-radius: var(--r-l); }
-  .hero-side { padding-bottom: 1rem; }
+  .hero-media::after {
+    background: linear-gradient(100deg,
+      rgba(255, 255, 255, .92) 0%,
+      rgba(255, 255, 255, .78) 32%,
+      rgba(255, 255, 255, .34) 60%,
+      rgba(255, 255, 255, .06) 100%);
+  }
 
   .cat-grid { grid-template-columns: repeat(4, 1fr); }
   .prod-grid { grid-template-columns: repeat(auto-fill, minmax(268px, 1fr)); gap: 1.25rem; }
