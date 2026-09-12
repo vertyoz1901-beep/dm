@@ -1,0 +1,593 @@
+Какое фото какой отделке соответствует
+======================================
+
+Номера расставлены автоматически по названиям файлов со старого сайта.
+Где написано «основное фото» — в имени файла цвета нет, подобрать было
+не по чему. Впишите номер вручную в photo-map.js, если знаете нужный.
+
+Александра  [aleksandra]
+  фотографии:
+     1. interer_jpeg1.jpg
+     2. krovat_jpeg.jpg
+  отделки:
+     1. Белый лотос                            → основное фото  (в именах файлов цвет не указан)
+     2. Орех                                   → основное фото  (в именах файлов цвет не указан)
+
+Александра с мягкой вставкой  [aleksandra-vstavka]
+  фотографии:
+     1. whatsapp_image_2024-12-10_at_140155.jpg
+     2. krovat-oreh_jpeg.jpg
+  отделки:
+     1. Белый / Вставка велюр бежевый          → основное фото  (в именах файлов цвет не указан)
+     2. Орех / Вставка велюр бежевый           → фото 2   krovat-oreh_jpeg.jpg  (совпадение 100%)
+
+Ассоль  [assol]
+  фотографии:
+     1. krovat_korichnevyj-antracit_s_matrasom_jpeg.jpg
+     2. krovat_antracit_belyj_s_matrasom_jpeg.jpg
+     3. krovat_belyj-antracit_s_matrasom_jpeg.jpg
+     4. krovat_slonovaya_kost_s_matrasom_jpeg.jpg
+     5. krovat_korichnevyj-antracit_bez_matrasa_jpeg.jpg
+  отделки:
+     1. Слоновая кость                         → фото 4   krovat_slonovaya_kost_s_matrasom_jpeg.jpg  (совпадение 100%)
+     2. Капучино                               → фото 5   krovat_korichnevyj-antracit_bez_matrasa_jpeg.jpg  (совпадение 72%)
+     3. Белый лотос                            → фото 2   krovat_antracit_belyj_s_matrasom_jpeg.jpg  (совпадение 100%)
+     4. Антрацит                               → фото 1   krovat_korichnevyj-antracit_s_matrasom_jpeg.jpg  (совпадение 100%)
+
+Венеция 2  [veneciya-2]
+  фотографии:
+     1. whatsapp_image_2024-04-25_at_081306.jpg
+     2. krovat_veneciya-2.jpg
+  отделки:
+     1. Орех                                   → основное фото  (в именах файлов цвет не указан)
+     2. Белый                                  → основное фото  (в именах файлов цвет не указан)
+
+Грация 2  [graciya-2]
+  фотографии:
+     1. graciya_2.jpg
+  отделки:
+     1. Орех                                   → основное фото  (в именах файлов цвет не указан)
+     2. Ольха                                  → основное фото  (в именах файлов цвет не указан)
+     3. Белый                                  → основное фото  (в именах файлов цвет не указан)
+     4. Махагон                                → основное фото  (в именах файлов цвет не указан)
+
+Ева  [eva]
+  фотографии:
+     1. eva_belaya.jpg
+  отделки:
+     1. Орех                                   → основное фото  (в именах файлов цвет не указан)
+     2. Белый                                  → фото 1   eva_belaya.jpg  (совпадение 95%)
+
+Канди  [kandi]
+  фотографии:
+     1. kandi.webp
+     2. kandi_belyj-chernyj_s_matrasom.jpg
+     3. kandi_kappuchino-slonovaya_kost_s_matrasom.jpg
+     4. kandi_antracit_s_matrasom.jpg
+     5. kandi_slonovaya_kost_s_matrasom.jpg
+     6. kandi_kappuchino-slonovaya_kost_s_chernymi_latoderzhatelyami_bez_matrasa.jpg
+  отделки:
+     1. Слоновая кость                         → фото 5   kandi_slonovaya_kost_s_matrasom.jpg  (совпадение 100%)
+     2. Антрацит                               → фото 4   kandi_antracit_s_matrasom.jpg  (совпадение 100%)
+     3. Белый лотос / Вставка белый            → фото 2   kandi_belyj-chernyj_s_matrasom.jpg  (совпадение 100%)
+     4. Капучино / Слоновая кость              → фото 3   kandi_kappuchino-slonovaya_kost_s_matrasom.jpg  (совпадение 100%)
+
+Каприз  [kapriz]
+  фотографии:
+     1. interier-kor_jpeg.jpg
+     2. whatsapp_image_2024-11-29_at_094121.jpg
+     3. whatsapp_image_2024-11-29_at_103231_1.jpg
+     4. whatsapp_image_2024-11-29_at_103231_2.jpg
+     5. whatsapp_image_2024-11-29_at_103231.jpg
+     6. whatsapp_image_2024-12-03_at_093201.jpg
+  отделки:
+     1. Слоновая кость                         → фото 2   whatsapp_image_2024-11-29_at_094121.jpg  (задано ранее)
+     2. Капучино                               → фото 1   interier-kor_jpeg.jpg  (задано ранее)
+     3. Голубой лён                            → фото 4   whatsapp_image_2024-11-29_at_103231_2.jpg  (задано ранее)
+     4. Белый лотос                            → фото 6   whatsapp_image_2024-12-03_at_093201.jpg  (задано ранее)
+     5. Орех                                   → фото 5   whatsapp_image_2024-11-29_at_103231.jpg  (задано ранее)
+     6. Антрацит                               → фото 3   whatsapp_image_2024-11-29_at_103231_1.jpg  (задано ранее)
+
+Катрин  [katrin]
+  фотографии:
+     1. katrin.jpg
+  отделки:
+     1. Орех                                   → фото 1   katrin.jpg  (задано ранее)
+     2. Белый                                  → основное фото  (в именах файлов цвет не указан)
+
+Катрин 2  [katrin-2]
+  фотографии:
+     1. whatsapp_image_2024-09-02_at_083655.jpg
+  отделки:
+     1. Тёмный орех / Вставка белый            → фото 1   whatsapp_image_2024-09-02_at_083655.jpg  (задано ранее)
+
+Катрин 3  [katrin-3]
+  фотографии:
+     1. whatsapp_image_2024-09-02_at_083655_1.jpg
+  отделки:
+     1. Тёмный орех / Вставка белый            → фото 1   whatsapp_image_2024-09-02_at_083655_1.jpg  (задано ранее)
+
+Катрин 4 брашированная  [katrin-4]
+  фотографии:
+     1. katrin-4_brash_belaya.jpg
+     2. katrin-4_brash_oreh-belyj.jpg
+  отделки:
+     1. Орех / Вставка дуб Сан-Марино          → фото 2   katrin-4_brash_oreh-belyj.jpg  (совпадение 100%)
+     2. Белый / Вставка дуб Сан-Марино         → фото 1   katrin-4_brash_belaya.jpg  (совпадение 100%)
+
+Нимфа  [nimfa]
+  фотографии:
+     1. 194_nimfa.jpg
+     2. 196_spalnya_nimfa_1.jpg
+  отделки:
+     1. Орех                                   → основное фото  (в именах файлов цвет не указан)
+     2. Белый                                  → основное фото  (в именах файлов цвет не указан)
+
+Сиеста  [siesta]
+  фотографии:
+     1. krovat-v-interiere-jpeg.jpg
+     2. krovat-v-interiere-sl-kost-jpeg1.jpg
+     3. siesta_cvet_kapuchino.jpg
+     4. siesta_cvet_seryj.jpg
+     5. siesta_cvet_slonovaya_kost.jpg
+     6. siesta_cvet_belyj.jpg
+     7. siesta_cvet_oreh.jpg
+     8. siesta_cvet_sinij_teksturirovannyj.jpg
+  отделки:
+     1. Слоновая кость                         → фото 5   siesta_cvet_slonovaya_kost.jpg  (совпадение 100%)
+     2. Капучино                               → фото 3   siesta_cvet_kapuchino.jpg  (совпадение 100%)
+     3. Голубой лён                            → фото 8   siesta_cvet_sinij_teksturirovannyj.jpg  (совпадение 77%)
+     4. Белый лотос                            → фото 6   siesta_cvet_belyj.jpg  (совпадение 100%)
+     5. Орех                                   → фото 7   siesta_cvet_oreh.jpg  (совпадение 100%)
+     6. Антрацит                               → основное фото  (в именах файлов цвет не указан)
+
+Твист (Twist)  [tvist]
+  фотографии:
+     1. tvist.jpg
+     2. krovat-int-jpeg_4000x3000px.jpg
+     3. tvist_kapuchino_nov.jpg
+     4. tvist_antracit.jpg
+     5. goluboj_len_tvist.jpg
+  отделки:
+     1. Капучино                               → фото 3   tvist_kapuchino_nov.jpg  (совпадение 100%)
+     2. Голубой лён                            → фото 5   goluboj_len_tvist.jpg  (совпадение 100%)
+     3. Белый лотос                            → фото 1   tvist.jpg  (задано ранее)
+     4. Орех                                   → фото 2   krovat-int-jpeg_4000x3000px.jpg  (задано ранее)
+     5. Антрацит                               → фото 4   tvist_antracit.jpg  (совпадение 100%)
+
+Рэст (Rest)  [rest]
+  фотографии:
+     1. rest_slon_kost.jpg
+     2. rest_seryj.jpg
+     3. rest_shokolad.jpg
+  отделки:
+     1. Антрацит / Вставка велюр серый         → фото 2   rest_seryj.jpg  (совпадение 90%)
+     2. Орех / Вставка велюр шоколад           → фото 3   rest_shokolad.jpg  (совпадение 90%)
+     3. Слоновая кость / Вставка велюр бежевый → фото 1   rest_slon_kost.jpg  (совпадение 100%)
+
+Рэст (Rest) тахта  [rest-tahta]
+  фотографии:
+     1. rest_tahta_slon_kost.jpg
+     2. rest_tahta_shokolad.jpg
+     3. rest_tahta_seryj.jpg
+  отделки:
+     1. Антрацит / Вставка велюр серый         → фото 3   rest_tahta_seryj.jpg  (совпадение 90%)
+     2. Орех / Вставка велюр шоколад           → фото 2   rest_tahta_shokolad.jpg  (совпадение 90%)
+     3. Слоновая кость / Вставка велюр бежевый → фото 1   rest_tahta_slon_kost.jpg  (совпадение 100%)
+
+Фэнси (Fancy)  [fancy]
+  фотографии:
+     1. whatsapp_image_2024-08-06_at_140711.jpg
+     2. whatsapp_image_2024-08-06_at_140712_1.jpg
+     3. whatsapp_image_2024-08-06_at_140712_2.jpg
+     4. whatsapp_image_2024-08-06_at_140712.jpg
+  отделки:
+     1. Капучино                               → фото 4   whatsapp_image_2024-08-06_at_140712.jpg  (задано ранее)
+     2. Белый лотос                            → основное фото  (в именах файлов цвет не указан)
+     3. Антрацит                               → основное фото  (в именах файлов цвет не указан)
+     4. Чёрный                                 → основное фото  (в именах файлов цвет не указан)
+
+Южанка  [yuzhanka]
+  фотографии:
+     1. yuzhanka.jpg
+  отделки:
+     1. Сосна                                  → фото 1   yuzhanka.jpg  (задано ранее)
+
+Вива (Viva)  [viva]
+  фотографии:
+     1. whatsapp_image_2024-10-24_at_071211.jpg
+     2. krovat_seraya_jpeg.jpg
+     3. krovat_shokolad_jpeg.jpg
+     4. viva_slonovaya_kost.jpg
+     5. viva_s_podemnym_mehanizmom.jpg
+     6. krovat_bezhevaya_jpeg.jpg
+     7. krovat_lilovaya_jpeg_1.jpg
+  отделки:
+     1. Шоколад / Вставка бежевый              → фото 3   krovat_shokolad_jpeg.jpg  (совпадение 100%)
+     2. Лиловый / Вставка розовый              → фото 7   krovat_lilovaya_jpeg_1.jpg  (совпадение 95%)
+     3. Серый / Вставка серебристый            → фото 2   krovat_seraya_jpeg.jpg  (совпадение 95%)
+     4. Слоновая кость                         → фото 4   viva_slonovaya_kost.jpg  (совпадение 100%)
+     5. Бежевый                                → фото 6   krovat_bezhevaya_jpeg.jpg  (совпадение 95%)
+
+Мэтро (Metro)  [metro]
+  фотографии:
+     1. metro_shokolad-bezh.jpg
+     2. lilovyj_interer_jpeg.jpg
+     3. metro_bezhevyj.jpg
+     4. metro_lil-rozovyj.jpg
+     5. krovat_bezhevaya_kosaya_stezhka_jpeg.jpg
+     6. krovat_slonovaya_kost_kosaya_stezhka_jpeg.jpg
+     7. krovat_lilovaya_jpeg.jpg
+     8. krovat_shokolad_kosaya_stezhka_jpeg.jpg
+     9. krovat_seraya_kosaya_stezhka_jpeg.jpg
+    10. krovat_seraya_kosaya_stezhka_podyemnik_jpeg.jpg
+  отделки:
+     1. Шоколад / Вставка бежевый              → фото 1   metro_shokolad-bezh.jpg  (совпадение 100%)
+     2. Лиловый / Вставка розовый              → фото 2   lilovyj_interer_jpeg.jpg  (совпадение 100%)
+     3. Серый / Вставка серебристый            → фото 9   krovat_seraya_kosaya_stezhka_jpeg.jpg  (совпадение 95%)
+     4. Слоновая кость                         → фото 6   krovat_slonovaya_kost_kosaya_stezhka_jpeg.jpg  (совпадение 100%)
+     5. Бежевый                                → фото 3   metro_bezhevyj.jpg  (совпадение 100%)
+
+Шарм-3  [sharm-3]
+  фотографии:
+     1. whatsapp_image_2024-08-06_at_125008_1.jpg
+     2. sharm-3_sinij_velyur.jpg
+     3. whatsapp_image_2024-08-06_at_125205.jpg
+  отделки:
+     1. Бежевый                                → основное фото  (в именах файлов цвет не указан)
+     2. Синий                                  → фото 2   sharm-3_sinij_velyur.jpg  (совпадение 100%)
+     3. Серый                                  → основное фото  (в именах файлов цвет не указан)
+
+Слип 1 (Sleep 1)  [sleep-1]
+  фотографии:
+     1. sleep_1yarusn_oreh.jpg
+     2. bort_inter_1.jpg
+     3. sleep_1yarus_sin.jpg
+     4. bort_bel_1.jpg
+  отделки:
+     1. Капучино                               → основное фото  (в именах файлов цвет не указан)
+     2. Голубой лён                            → фото 3   sleep_1yarus_sin.jpg  (совпадение 77%)
+     3. Белый лотос                            → основное фото  (в именах файлов цвет не указан)
+     4. Орех                                   → фото 1   sleep_1yarusn_oreh.jpg  (совпадение 100%)
+     5. Ольха                                  → основное фото  (в именах файлов цвет не указан)
+     6. Белый                                  → основное фото  (в именах файлов цвет не указан)
+
+Слип 2 (Sleep 2) двухъярусный  [sleep-2]
+  фотографии:
+     1. sleep_oreh_1.jpg
+     2. sleep_belyj_1.jpg
+     3. bort_inter_2_sin_1.jpg
+     4. sleep_sinij_1.jpg
+     5. bort_bel_2_sin_1.jpg
+  отделки:
+     1. Капучино                               → фото 1   sleep_oreh_1.jpg  (задано ранее)
+     2. Голубой лён                            → фото 4   sleep_sinij_1.jpg  (совпадение 77%)
+     3. Белый лотос                            → фото 2   sleep_belyj_1.jpg  (совпадение 100%)
+
+Надежда  [nadezhda]
+  фотографии:
+     1. nadezhda.jpg
+  отделки:
+     1. Чёрный                                 → основное фото  (в именах файлов цвет не указан)
+
+Спальня «Александра»  [spalnya-aleksandra]
+  фотографии:
+     1. 195_spalnya_aleksandra.jpg
+     2. komod_s_frezerovkoj-oreh_jpeg_398197.jpg
+     3. tumba_prikrovatnaya_s_frezerovkoj-oreh_png.png
+     4. shkaf_s_frezerovkoj_zakrytyj_belyj_jpeg.jpg
+     5. interer_jpeg1.jpg
+     6. whatsapp_image_2024-12-10_at_140155.jpg
+  отделки:
+     1. Белый лотос                            → фото 4   shkaf_s_frezerovkoj_zakrytyj_belyj_jpeg.jpg  (совпадение 100%)
+     2. Орех                                   → фото 2   komod_s_frezerovkoj-oreh_jpeg_398197.jpg  (совпадение 100%)
+
+Спальня «Венеция»  [spalnya-veneciya]
+  фотографии:
+     1. 70_spalnya_ven.jpg
+     2. komod_2_584160.jpg
+     3. whatsapp_image_2024-04-25_at_081306.jpg
+     4. tumba_2.jpg
+     5. shkaf_veneciya.jpg
+  отделки:
+     1. Орех                                   → основное фото  (в именах файлов цвет не указан)
+     2. Белый                                  → основное фото  (в именах файлов цвет не указан)
+
+Спальня «Вива (Viva)»  [spalnya-viva]
+  фотографии:
+     1. spalnya_slonovaya_kost_01_listvinnica_sibiraskaya_3000x4000_jpeg.jpg
+     2. interer_antracit_4000x3000_jpeg.jpg
+     3. whatsapp_image_2024-10-24_at_071211.jpg
+     4. viva_lilovyj-rozovyj.jpg
+     5. viva_bezhevyj.jpg
+     6. viva_seryj-serebristyj.jpg
+     7. viva_shokolad-bezhevyj.jpg
+     8. spalnya_belaya_listvinnica_sibiraskaya_3000x4000_jpeg.jpg
+     9. komod_jpeg_3_082417.jpg
+    10. prikrovatnaya_tumba_jpeg_2.jpg
+    11. tumba_tv_jpeg_3_133429.jpg
+  отделки:
+     1. Шоколад / Вставка бежевый              → фото 7   viva_shokolad-bezhevyj.jpg  (совпадение 100%)
+     2. Серый / Вставка серебристый            → фото 6   viva_seryj-serebristyj.jpg  (совпадение 100%)
+     3. Слоновая кость                         → фото 1   spalnya_slonovaya_kost_01_listvinnica_sibiraskaya_3000x4000_jpeg.jpg  (совпадение 100%)
+     4. Бежевый                                → фото 5   viva_bezhevyj.jpg  (совпадение 100%)
+
+Спальня «Каприз»  [spalnya-kapriz]
+  фотографии:
+     1. 13_kapriz_kap.jpg
+     2. 16_kapriz_belaya_jpeg.jpg
+     3. spalnya_belaya_listvinnica_sibiraskaya_3000x4000_jpeg.jpg
+     4. whatsapp_image_2024-10-24_at_071211.jpg
+     5. komod_jpeg_3_082417.jpg
+     6. prikrovatnaya_tumba_jpeg_2.jpg
+     7. tumba_tv_jpeg_3_133429.jpg
+     8. shkaf_jpeg_157545.jpg
+  отделки:
+     1. Слоновая кость                         → основное фото  (в именах файлов цвет не указан)
+     2. Капучино                               → основное фото  (в именах файлов цвет не указан)
+     3. Голубой лён                            → фото 8   shkaf_jpeg_157545.jpg  (задано ранее)
+     4. Белый лотос                            → фото 3   spalnya_belaya_listvinnica_sibiraskaya_3000x4000_jpeg.jpg  (совпадение 100%)
+     5. Орех                                   → основное фото  (в именах файлов цвет не указан)
+     6. Антрацит                               → основное фото  (в именах файлов цвет не указан)
+
+Спальня «Нимфа»  [spalnya-nimfa]
+  фотографии:
+     1. 196_spalnya_nimfa_1.jpg
+     2. 197_komod_no1_1.jpg
+     3. 198_tumba_s_dv_yashch.jpg
+     4. shkaf_veneciya.jpg
+     5. 194_nimfa.jpg
+     6. tumba_1bel_0.jpg
+     7. shkaf_s_frezerovkoj_zakrytyj_belyj_jpeg.jpg
+  отделки:
+     1. Орех                                   → основное фото  (в именах файлов цвет не указан)
+     2. Белый                                  → фото 7   shkaf_s_frezerovkoj_zakrytyj_belyj_jpeg.jpg  (совпадение 100%)
+
+Шкаф «Венеция» 3-створчатый  [shkaf-veneciya-3]
+  фотографии:
+     1. shkaf_veneciya.jpg
+     2. snapedit_1737533951796.jpg
+  отделки:
+     1. Орех / Орех американский               → основное фото  (в именах файлов цвет не указан)
+     2. Белый / Лиственница сибирская          → фото 1   shkaf_veneciya.jpg  (задано ранее)
+
+Шкаф «Гермес» 3-створчатый  [shkaf-germes-3]
+  фотографии:
+     1. shkaf_s_frezerovkoj_zakrytyj_belyj_jpeg.jpg
+     2. snapedit_1737533951796_777906.jpg
+  отделки:
+     1. Орех / Орех американский               → основное фото  (в именах файлов цвет не указан)
+     2. Белый / Лиственница сибирская          → фото 1   shkaf_s_frezerovkoj_zakrytyj_belyj_jpeg.jpg  (совпадение 100%)
+
+Шкаф «Лофти» 2-створчатый  [shkaf-lofti-2]
+  фотографии:
+     1. shkaf_jpeg_157545.jpg
+     2. shkaf_jpeg_3_625803.jpg
+     3. shkaf_korichnevyj_jpeg_694249.jpg
+     4. shkaf_shr2_slonovaya_kost-sibirskaya_listvinnica_jpeg_935620.jpg
+     5. shkaf_shr2_belyj-sibirskaya_listvinnica_jpeg_419182.jpg
+     6. snapedit_1737534424848.jpg
+  отделки:
+     1. Антрацит / Дуб Канзас                  → фото 2   shkaf_jpeg_3_625803.jpg  (по оттенку, проверьте)
+     2. Голубой лён                            → фото 1   shkaf_jpeg_157545.jpg  (задано ранее)
+     3. Капучино / Дуб Канзас                  → фото 3   shkaf_korichnevyj_jpeg_694249.jpg  (совпадение 77%)
+     4. Слоновая кость / Лиственница сибирская → фото 4   shkaf_shr2_slonovaya_kost-sibirskaya_listvinnica_jpeg_935620.jpg  (совпадение 100%)
+     5. Белый лотос / Лиственница сибирская    → фото 5   shkaf_shr2_belyj-sibirskaya_listvinnica_jpeg_419182.jpg  (совпадение 100%)
+
+Комод «Лофти»  [komod-lofti]
+  фотографии:
+     1. komod_jpeg_3_082417.jpg
+     2. komod_jpeg_3_558613.jpg
+     3. komod_jpeg_1.jpg
+     4. komod_belyj-sibirskaya_listvinnica_jpeg_1.jpg
+     5. komod_korichnevyj_jpeg.jpg
+     6. komod_slonovaya_kost-sibirskaya_listvinnica_jpeg_1.jpg
+     7. komod_jpeg_1_428065.jpg
+     8. snapedit_1737534306165.jpg
+  отделки:
+     1. Антрацит / Дуб Канзас                  → фото 1   komod_jpeg_3_082417.jpg  (задано ранее)
+     2. Голубой лён                            → фото 7   komod_jpeg_1_428065.jpg  (задано ранее)
+     3. Капучино / Дуб Канзас                  → фото 5   komod_korichnevyj_jpeg.jpg  (совпадение 77%)
+     4. Слоновая кость / Лиственница сибирская → фото 6   komod_slonovaya_kost-sibirskaya_listvinnica_jpeg_1.jpg  (совпадение 100%)
+     5. Белый лотос / Лиственница сибирская    → фото 4   komod_belyj-sibirskaya_listvinnica_jpeg_1.jpg  (совпадение 100%)
+
+Комод №1  [komod-1]
+  фотографии:
+     1. 197_komod_no1_1.jpg
+  отделки:
+     1. Орех / Орех американский               → основное фото  (в именах файлов цвет не указан)
+     2. Белый / Лиственница сибирская          → фото 1   197_komod_no1_1.jpg  (задано ранее)
+
+Комод №2  [komod-2]
+  фотографии:
+     1. komod_2_584160.jpg
+  отделки:
+     1. Орех / Орех американский               → основное фото  (в именах файлов цвет не указан)
+     2. Белый / Лиственница сибирская          → фото 1   komod_2_584160.jpg  (задано ранее)
+
+Комод №4  [komod-4]
+  фотографии:
+     1. komod_s_frezerovkoj-oreh_jpeg_398197.jpg
+     2. komod_s_frezerovkoj_jpeg.jpg
+  отделки:
+     1. Орех / Орех американский               → фото 1   komod_s_frezerovkoj-oreh_jpeg_398197.jpg  (совпадение 100%)
+     2. Белый / Лиственница сибирская          → фото 2   komod_s_frezerovkoj_jpeg.jpg  (задано ранее)
+
+Тумба «Арт»  [tumba-art]
+  фотографии:
+     1. tumba-slonovaya_kost_jpeg.jpg
+     2. tumba_1.jpg
+     3. oreh_tumba_jpeg_3000x4000px.jpg
+  отделки:
+     1. Слоновая кость / Дуб Канзас            → фото 1   tumba-slonovaya_kost_jpeg.jpg  (совпадение 100%)
+     2. Белый лотос / Дуб Канзас               → основное фото  (в именах файлов цвет не указан)
+     3. Орех / Дуб Канзас                      → фото 3   oreh_tumba_jpeg_3000x4000px.jpg  (совпадение 100%)
+     4. Капучино / Дуб Канзас                  → основное фото  (в именах файлов цвет не указан)
+     5. Антрацит / Дуб Канзас                  → основное фото  (в именах файлов цвет не указан)
+     6. Голубой лён / Дуб Канзас               → фото 2   tumba_1.jpg  (задано ранее)
+
+Тумба «Лофти»  [tumba-lofti]
+  фотографии:
+     1. prikrovatnaya_tumba_jpeg_2.jpg
+     2. tumba_prikrovatnaya_jpeg_1.jpg
+     3. prikrovatnaya_tumba_korichnevaya_jpeg.jpg
+     4. tumba_prikrovatnaya_belyj-sibirskaya_listvinnica_jpeg.jpg
+     5. tumbochka_prikrovatnaya_slonovaya_kost-sibirskaya_listvinnica_jpeg.jpg
+  отделки:
+     1. Капучино / Дуб Канзас                  → фото 3   prikrovatnaya_tumba_korichnevaya_jpeg.jpg  (совпадение 77%)
+     2. Антрацит / Дуб Канзас                  → фото 1   prikrovatnaya_tumba_jpeg_2.jpg  (по оттенку, проверьте)
+     3. Голубой лён / Дуб Канзас               → фото 2   tumba_prikrovatnaya_jpeg_1.jpg  (задано ранее)
+     4. Белый лотос / Лиственница сибирская    → фото 4   tumba_prikrovatnaya_belyj-sibirskaya_listvinnica_jpeg.jpg  (совпадение 100%)
+     5. Слоновая кость / Лиственница сибирская → фото 5   tumbochka_prikrovatnaya_slonovaya_kost-sibirskaya_listvinnica_jpeg.jpg  (совпадение 100%)
+
+Тумба «Софт (Soft)» мягкая  [tumba-soft]
+  фотографии:
+     1. tumba-seraya_jpeg_4000x3000-01.jpg
+  отделки:
+     1. Слоновая кость                         → основное фото  (в именах файлов цвет не указан)
+     2. Бежевый                                → основное фото  (в именах файлов цвет не указан)
+     3. Шоколад / Вставка бежевый              → основное фото  (в именах файлов цвет не указан)
+     4. Лиловый / Вставка розовый              → основное фото  (в именах файлов цвет не указан)
+     5. Серый / Вставка серебристый            → фото 1   tumba-seraya_jpeg_4000x3000-01.jpg  (совпадение 100%)
+
+Тумба ТВ «Лофти»  [tumba-tv-lofti]
+  фотографии:
+     1. tumba_tv_jpeg_3_133429.jpg
+     2. tumba_tv_jpeg_826103.jpg
+     3. tumba_tv_belyj-sibirskaya_listvinnica_jpeg_288256.jpg
+     4. tumba_tv_slonovaya_kost-sibirskaya_listvinnica_jpeg_603072.jpg
+     5. tumba_tv_korichnevaya_jpeg_922303.jpg
+  отделки:
+     1. Капучино / Дуб Канзас                  → фото 5   tumba_tv_korichnevaya_jpeg_922303.jpg  (совпадение 77%)
+     2. Антрацит / Дуб Канзас                  → основное фото  (в именах файлов цвет не указан)
+     3. Голубой лён / Дуб Канзас               → основное фото  (в именах файлов цвет не указан)
+     4. Белый лотос / Лиственница сибирская    → фото 3   tumba_tv_belyj-sibirskaya_listvinnica_jpeg_288256.jpg  (совпадение 100%)
+     5. Слоновая кость / Лиственница сибирская → фото 4   tumba_tv_slonovaya_kost-sibirskaya_listvinnica_jpeg_603072.jpg  (совпадение 100%)
+
+Тумба №1  [tumba-1]
+  фотографии:
+     1. tumba_1bel_0.jpg
+  отделки:
+     1. Орех / Орех американский               → основное фото  (в именах файлов цвет не указан)
+     2. Белый / Лиственница сибирская          → фото 1   tumba_1bel_0.jpg  (совпадение 100%)
+
+Тумба №1 с 2 ящиками  [tumba-1-2]
+  фотографии:
+     1. 198_tumba_s_dv_yashch.jpg
+     2. tumba-2_2.jpg
+  отделки:
+     1. Орех / Орех американский               → фото 2   tumba-2_2.jpg  (задано ранее)
+     2. Белый / Лиственница сибирская          → фото 1   198_tumba_s_dv_yashch.jpg  (задано ранее)
+
+Тумба №2  [tumba-2]
+  фотографии:
+     1. tumba_2.jpg
+  отделки:
+     1. Орех / Орех американский               → основное фото  (в именах файлов цвет не указан)
+     2. Белый / Лиственница сибирская          → фото 1   tumba_2.jpg  (задано ранее)
+
+Тумба №4  [tumba-4]
+  фотографии:
+     1. tumba_prikrovatnaya_s_frezerovkoj-oreh_png.png
+     2. tumba_prikrovatnaya_s_frezerovkoj_jpeg.jpg
+  отделки:
+     1. Орех / Орех американский               → фото 1   tumba_prikrovatnaya_s_frezerovkoj-oreh_png.png  (совпадение 100%)
+     2. Белый / Лиственница сибирская          → фото 2   tumba_prikrovatnaya_s_frezerovkoj_jpeg.jpg  (задано ранее)
+
+Гостиная «Лофти»  [gostinaya-lofti]
+  фотографии:
+     1. whatsapp_image_2024-09-02_at_095859.jpg
+     2. shkaf_jpeg.jpg
+     3. stellazh1.jpg
+     4. komod_jpeg_2.jpg
+     5. tumba_tv_jpeg.jpg
+     6. tumba_prikrovatnaya_jpeg_2.jpg
+     7. polka_navesnaya_jpeg.jpg
+     8. shkaf_jpeg_3.jpg
+     9. stellazh1_png_2.png
+    10. komod_jpeg_3_1.jpg
+    11. tumba_tv_jpeg_3.jpg
+    12. prikrovatnaya_tumba_jpeg_2_1.jpg
+    13. polka_jpeg_2.jpg
+    14. shkaf_shr2_slonovaya_kost-sibirskaya_listvinnica_jpeg.jpg
+  отделки:
+     1. Антрацит / Дуб Канзас                  → основное фото  (в именах файлов цвет не указан)
+     2. Капучино / Дуб Канзас                  → фото 9   stellazh1_png_2.png  (задано ранее)
+     3. Голубой лён                            → основное фото  (в именах файлов цвет не указан)
+     4. Слоновая кость / Лиственница сибирская → фото 14  shkaf_shr2_slonovaya_kost-sibirskaya_listvinnica_jpeg.jpg  (совпадение 100%)
+     5. Белый лотос / Лиственница сибирская    → основное фото  (в именах файлов цвет не указан)
+
+Стеллаж «Лофти»  [stellazh-lofti]
+  фотографии:
+     1. stellazh1_png_2_701601.png
+     2. stellazh1_446249.jpg
+     3. stellazh_korichnevyj_jpeg_541218.jpg
+     4. stelazh_slonovaya_kost-sibirskaya_listvinnica_jpeg_603308.jpg
+     5. stelazh_belyj-sibirskaya_listvinnica_jpeg_593338.jpg
+     6. komod_jpeg_3_082417.jpg
+     7. prikrovatnaya_tumba_jpeg_2.jpg
+  отделки:
+     1. Антрацит / Дуб Канзас                  → фото 6   komod_jpeg_3_082417.jpg  (задано ранее)
+     2. Голубой лён                            → основное фото  (в именах файлов цвет не указан)
+     3. Капучино / Дуб Канзас                  → фото 3   stellazh_korichnevyj_jpeg_541218.jpg  (совпадение 77%)
+     4. Слоновая кость / Лиственница сибирская → фото 4   stelazh_slonovaya_kost-sibirskaya_listvinnica_jpeg_603308.jpg  (совпадение 100%)
+     5. Белый лотос / Лиственница сибирская    → фото 5   stelazh_belyj-sibirskaya_listvinnica_jpeg_593338.jpg  (совпадение 100%)
+
+Стол «Гранд»  [stol-grand]
+  фотографии:
+     1. stol_grant_white.jpg
+     2. stol_grant_black.jpg
+     3. whatsapp_image_2024-02-27_at_120916.jpg
+  отделки:
+     1. Столешница бетон лайт / Ножки белые    → основное фото  (в именах файлов цвет не указан)
+     2. Столешница бетон лайт / Ножки чёрные   → основное фото  (в именах файлов цвет не указан)
+
+Стол «Гранд» раздвижной  [stol-grand-razdvizhnoj]
+  фотографии:
+     1. interier-stol-jpeg_1.jpg
+     2. grand-beton_pajn-chernyj.jpg
+     3. grand_beton_pajn_belyj.jpg
+  отделки:
+     1. Столешница бетон лайт / Ножки белые    → фото 3   grand_beton_pajn_belyj.jpg  (совпадение 81%)
+     2. Столешница бетон лайт / Ножки чёрные   → фото 2   grand-beton_pajn-chernyj.jpg  (совпадение 81%)
+
+Стул №1  [stul-1]
+  фотографии:
+     1. 145_stul_no_1.jpg
+  отделки:
+     1. Ткань бежевая                          → основное фото  (в именах файлов цвет не указан)
+     2. Ткань серая                            → основное фото  (в именах файлов цвет не указан)
+     3. Ткань коричневая                       → основное фото  (в именах файлов цвет не указан)
+
+Стул №2  [stul-2]
+  фотографии:
+     1. 146_stul_2.jpg
+  отделки:
+     1. Ткань бежевая                          → основное фото  (в именах файлов цвет не указан)
+     2. Ткань серая                            → основное фото  (в именах файлов цвет не указан)
+     3. Ткань коричневая                       → основное фото  (в именах файлов цвет не указан)
+
+Стул №3  [stul-3]
+  фотографии:
+     1. 147stul_no3_oreh.jpg
+  отделки:
+     1. Ткань бежевая                          → основное фото  (в именах файлов цвет не указан)
+     2. Ткань серая                            → основное фото  (в именах файлов цвет не указан)
+     3. Ткань коричневая                       → основное фото  (в именах файлов цвет не указан)
+
+Табурет точёный  [taburet-tochenyj]
+  фотографии:
+     1. 151_taburet_s_myagkim_sidenem.jpg
+  отделки:
+     1. Ткань бежевая                          → основное фото  (в именах файлов цвет не указан)
+     2. Ткань серая                            → основное фото  (в именах файлов цвет не указан)
+     3. Ткань коричневая                       → основное фото  (в именах файлов цвет не указан)
+
+Табурет №3  [taburet-3]
+  фотографии:
+     1. 152_taburet_no3_kapuchino.jpg
+     2. 165_taburet_no3_slonovaya_kost_1.jpg
+  отделки:
+     1. Ткань бежевая                          → основное фото  (в именах файлов цвет не указан)
+     2. Ткань серая                            → фото 2   165_taburet_no3_slonovaya_kost_1.jpg  (по оттенку, проверьте)
+     3. Ткань коричневая                       → фото 1   152_taburet_no3_kapuchino.jpg  (совпадение 77%)
