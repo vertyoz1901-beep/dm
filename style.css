@@ -893,10 +893,18 @@ body.is-locked { overflow: hidden; }
   border-radius: var(--r-l);
   overflow: hidden;
   aspect-ratio: 4 / 3;
-  background: var(--bg-2);
+  background: var(--surface);
   border: 1px solid var(--line);
+  cursor: zoom-in;
 }
-.pd-media img { width: 100%; height: 100%; object-fit: cover; transition: opacity .25s var(--e); }
+/* contain, а не cover: у мебели важно видеть предмет целиком.
+   При cover высокие снимки обрезались, и в кадре оставался кусок. */
+.pd-media img {
+  width: 100%; height: 100%;
+  object-fit: contain;
+  padding: clamp(.6rem, 2vw, 1.4rem);
+  transition: opacity .25s var(--e);
+}
 
 /* Лента миниатюр под главным фото */
 .pd-thumbs {
@@ -921,7 +929,7 @@ body.is-locked { overflow: hidden; }
   padding: 0;
   transition: border-color .25s var(--e), transform .25s var(--e);
 }
-.pd-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.pd-thumb img { width: 100%; height: 100%; object-fit: contain; padding: 3px; }
 .pd-thumb:hover { transform: translateY(-2px); }
 .pd-thumb.is-on { border-color: var(--ink); box-shadow: 0 0 0 2px rgba(22, 22, 28, .18); }
 
@@ -956,7 +964,7 @@ body.is-locked { overflow: hidden; }
   color: var(--muted);
   margin-bottom: .55rem;
 }
-.pd-group-t b { color: var(--ink); font-family: var(--f-body); font-size: .82rem; letter-spacing: 0; text-transform: none; }
+.pd-group-t b { color: var(--ink); font-family: var(--f-body); font-size: 1rem; font-weight: 700; letter-spacing: 0; text-transform: none; }
 .pd-opts { display: flex; flex-wrap: wrap; gap: .5rem; }
 
 .qty { display: inline-flex; align-items: center; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
@@ -1115,7 +1123,7 @@ body.is-locked { overflow: hidden; }
   .gallery { grid-template-columns: repeat(4, 1fr); }
 
   .pd { grid-template-columns: 1.15fr 1fr; gap: 2rem; align-items: start; }
-  .pd-media { aspect-ratio: 1; position: sticky; top: calc(var(--head-h) + 1rem); }
+  .pd-media { aspect-ratio: 4 / 3; position: sticky; top: calc(var(--head-h) + 1rem); }
 
   .cart-grid { grid-template-columns: 1.4fr 1fr; align-items: start; }
   .summary { position: sticky; top: calc(var(--head-h) + 1rem); }
@@ -1247,4 +1255,57 @@ body.is-locked { overflow: hidden; }
 @media print {
   .header, .mmenu, .fab, .toast, .add, .btn { display: none !important; }
   body { padding-top: 0; background: #fff; }
+}
+
+
+/* ------------------------- Просмотр фотографии ------------------------- */
+/* Открывается кликом по снимку товара: кадр целиком, без обрезки,
+   листается стрелками и закрывается по Esc или клику по фону. */
+.viewer {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: none;
+  place-items: center;
+  background: rgba(22, 22, 28, .92);
+  padding: clamp(1rem, 4vw, 3rem);
+  cursor: zoom-out;
+}
+.viewer.is-on { display: grid; }
+.viewer img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: var(--r-s);
+  background: #FFFFFF;
+}
+.viewer-close,
+.viewer-nav {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 46px; height: 46px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .14);
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background .2s var(--e);
+}
+.viewer-close:hover,
+.viewer-nav:hover { background: rgba(255, 255, 255, .28); }
+.viewer-close { top: 1rem; right: 1rem; }
+.viewer-nav--prev { left: 1rem; top: 50%; transform: translateY(-50%); }
+.viewer-nav--next { right: 1rem; top: 50%; transform: translateY(-50%); }
+.viewer-count {
+  position: absolute;
+  bottom: 1rem; left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, .8);
+  font-family: var(--f-mono);
+  font-size: .78rem;
+}
+@media (max-width: 600px) {
+  .viewer-nav { width: 40px; height: 40px; }
 }
