@@ -1,150 +1,10 @@
 {
- "aleksandra-vstavka": {
-  "Орех / Вставка велюр бежевый": "krovat-oreh_jpeg.jpg"
- },
- "assol": {
-  "Слоновая кость": "krovat_slonovaya_kost_s_matrasom_jpeg.jpg",
-  "Капучино": "krovat_korichnevyj-antracit_bez_matrasa_jpeg.jpg",
-  "Белый лотос": "krovat_antracit_belyj_s_matrasom_jpeg.jpg",
-  "Антрацит": "krovat_korichnevyj-antracit_s_matrasom_jpeg.jpg"
- },
- "eva": {
-  "Белый": "eva_belaya.jpg"
- },
- "kandi": {
-  "Слоновая кость": "kandi_slonovaya_kost_s_matrasom.jpg",
-  "Антрацит": "kandi_antracit_s_matrasom.jpg",
-  "Белый лотос / Вставка белый": "kandi_belyj-chernyj_s_matrasom.jpg",
-  "Капучино / Слоновая кость": "kandi_kappuchino-slonovaya_kost_s_matrasom.jpg"
- },
- "kapriz": {
-  "Слоновая кость": "whatsapp_image_2024-11-29_at_094121.jpg",
-  "Капучино": "interier-kor_jpeg.jpg",
-  "Голубой лён": "whatsapp_image_2024-11-29_at_103231_2.jpg",
-  "Белый лотос": "whatsapp_image_2024-12-03_at_093201.jpg",
-  "Орех": "whatsapp_image_2024-11-29_at_103231.jpg",
-  "Антрацит": "whatsapp_image_2024-11-29_at_103231_1.jpg"
- },
- "katrin": {
-  "Орех": "katrin.jpg"
- },
- "katrin-2": {
-  "Тёмный орех / Вставка белый": "whatsapp_image_2024-09-02_at_083655.jpg"
- },
- "katrin-3": {
-  "Тёмный орех / Вставка белый": "whatsapp_image_2024-09-02_at_083655_1.jpg"
- },
- "katrin-4": {
-  "Орех / Вставка дуб Сан-Марино": "katrin-4_brash_oreh-belyj.jpg",
-  "Белый / Вставка дуб Сан-Марино": "katrin-4_brash_belaya.jpg"
- },
- "siesta": {
-  "Слоновая кость": "siesta_cvet_slonovaya_kost.jpg",
-  "Капучино": "siesta_cvet_kapuchino.jpg",
-  "Голубой лён": "siesta_cvet_sinij_teksturirovannyj.jpg",
-  "Белый лотос": "siesta_cvet_belyj.jpg",
-  "Орех": "siesta_cvet_oreh.jpg"
- },
- "tvist": {
-  "Капучино": "tvist_kapuchino_nov.jpg",
-  "Голубой лён": "goluboj_len_tvist.jpg",
-  "Белый лотос": "tvist.jpg",
-  "Орех": "krovat-int-jpeg_4000x3000px.jpg",
-  "Антрацит": "tvist_antracit.jpg"
- },
- "rest": {
-  "Антрацит / Вставка велюр серый": "rest_seryj.jpg",
-  "Орех / Вставка велюр шоколад": "rest_shokolad.jpg",
-  "Слоновая кость / Вставка велюр бежевый": "rest_slon_kost.jpg"
- },
- "rest-tahta": {
-  "Антрацит / Вставка велюр серый": "rest_tahta_seryj.jpg",
-  "Орех / Вставка велюр шоколад": "rest_tahta_shokolad.jpg",
-  "Слоновая кость / Вставка велюр бежевый": "rest_tahta_slon_kost.jpg"
- },
- "fancy": {
-  "Капучино": "whatsapp_image_2024-08-06_at_140712.jpg"
- },
- "yuzhanka": {
-  "Сосна": "yuzhanka.jpg"
- },
- "viva": {
-  "Шоколад / Вставка бежевый": "krovat_shokolad_jpeg.jpg",
-  "Лиловый / Вставка розовый": "krovat_lilovaya_jpeg_1.jpg",
-  "Серый / Вставка серебристый": "krovat_seraya_jpeg.jpg",
-  "Слоновая кость": "viva_slonovaya_kost.jpg",
-  "Бежевый": "krovat_bezhevaya_jpeg.jpg"
- },
- "metro": {
-  "Шоколад / Вставка бежевый": "metro_shokolad-bezh.jpg",
-  "Лиловый / Вставка розовый": "lilovyj_interer_jpeg.jpg",
-  "Серый / Вставка серебристый": "krovat_seraya_kosaya_stezhka_jpeg.jpg",
-  "Слоновая кость": "krovat_slonovaya_kost_kosaya_stezhka_jpeg.jpg",
-  "Бежевый": "metro_bezhevyj.jpg"
- },
- "sharm-3": {
-  "Синий": "sharm-3_sinij_velyur.jpg"
- },
- "sleep-1": {
-  "Голубой лён": "sleep_1yarus_sin.jpg",
-  "Орех": "sleep_1yarusn_oreh.jpg"
- },
- "sleep-2": {
-  "Капучино": "sleep_oreh_1.jpg",
-  "Голубой лён": "sleep_sinij_1.jpg",
-  "Белый лотос": "sleep_belyj_1.jpg"
- },
- "spalnya-aleksandra": {
-  "Белый лотос": "shkaf_s_frezerovkoj_zakrytyj_belyj_jpeg.jpg",
-  "Орех": "komod_s_frezerovkoj-oreh_jpeg_398197.jpg"
- },
- "spalnya-viva": {
-  "Шоколад / Вставка бежевый": "viva_shokolad-bezhevyj.jpg",
-  "Серый / Вставка серебристый": "viva_seryj-serebristyj.jpg",
-  "Слоновая кость": "spalnya_slonovaya_kost_01_listvinnica_sibiraskaya_3000x4000_jpeg.jpg",
-  "Бежевый": "viva_bezhevyj.jpg"
- },
- "spalnya-kapriz": {
-  "Голубой лён": "shkaf_jpeg_157545.jpg",
-  "Белый лотос": "spalnya_belaya_listvinnica_sibiraskaya_3000x4000_jpeg.jpg"
- },
- "spalnya-nimfa": {
-  "Белый": "shkaf_s_frezerovkoj_zakrytyj_belyj_jpeg.jpg"
- },
- "shkaf-veneciya-3": {
-  "Белый / Лиственница сибирская": "shkaf_veneciya.jpg"
- },
- "shkaf-germes-3": {
-  "Белый / Лиственница сибирская": "shkaf_s_frezerovkoj_zakrytyj_belyj_jpeg.jpg"
- },
- "shkaf-lofti-2": {
-  "Антрацит / Дуб Канзас": "shkaf_jpeg_3_625803.jpg",
-  "Голубой лён": "shkaf_jpeg_157545.jpg",
-  "Капучино / Дуб Канзас": "shkaf_korichnevyj_jpeg_694249.jpg",
-  "Слоновая кость / Лиственница сибирская": "shkaf_shr2_slonovaya_kost-sibirskaya_listvinnica_jpeg_935620.jpg",
-  "Белый лотос / Лиственница сибирская": "shkaf_shr2_belyj-sibirskaya_listvinnica_jpeg_419182.jpg"
- },
- "komod-lofti": {
-  "Антрацит / Дуб Канзас": "komod_jpeg_3_082417.jpg",
-  "Голубой лён": "komod_jpeg_1_428065.jpg",
-  "Капучино / Дуб Канзас": "komod_korichnevyj_jpeg.jpg",
-  "Слоновая кость / Лиственница сибирская": "komod_slonovaya_kost-sibirskaya_listvinnica_jpeg_1.jpg",
-  "Белый лотос / Лиственница сибирская": "komod_belyj-sibirskaya_listvinnica_jpeg_1.jpg"
- },
- "komod-1": {
-  "Белый / Лиственница сибирская": "197_komod_no1_1.jpg"
- },
- "komod-2": {
-  "Белый / Лиственница сибирская": "komod_2_584160.jpg"
- },
- "komod-4": {
-  "Орех / Орех американский": "komod_s_frezerovkoj-oreh_jpeg_398197.jpg",
-  "Белый / Лиственница сибирская": "komod_s_frezerovkoj_jpeg.jpg"
- },
- "tumba-art": {
-  "Слоновая кость / Дуб Канзас": "tumba-slonovaya_kost_jpeg.jpg",
-  "Орех / Дуб Канзас": "oreh_tumba_jpeg_3000x4000px.jpg",
-  "Голубой лён / Дуб Канзас": "tumba_1.jpg"
+ "tumba-tv-lofti": {
+  "Капучино / Дуб Канзас": "tumba_tv_korichnevaya_jpeg_922303.jpg",
+  "Антрацит / Дуб Канзас": "tumba_tv_jpeg_3_133429.jpg",
+  "Голубой лён / Дуб Канзас": "tumba_tv_jpeg_826103.jpg",
+  "Белый лотос / Лиственница сибирская": "tumba_tv_belyj-sibirskaya_listvinnica_jpeg_288256.jpg",
+  "Слоновая кость / Лиственница сибирская": "tumba_tv_slonovaya_kost-sibirskaya_listvinnica_jpeg_603072.jpg"
  },
  "tumba-lofti": {
   "Капучино / Дуб Канзас": "prikrovatnaya_tumba_korichnevaya_jpeg.jpg",
@@ -153,44 +13,25 @@
   "Белый лотос / Лиственница сибирская": "tumba_prikrovatnaya_belyj-sibirskaya_listvinnica_jpeg.jpg",
   "Слоновая кость / Лиственница сибирская": "tumbochka_prikrovatnaya_slonovaya_kost-sibirskaya_listvinnica_jpeg.jpg"
  },
- "tumba-soft": {
-  "Серый / Вставка серебристый": "tumba-seraya_jpeg_4000x3000-01.jpg"
- },
- "tumba-tv-lofti": {
-  "Капучино / Дуб Канзас": "tumba_tv_korichnevaya_jpeg_922303.jpg",
-  "Белый лотос / Лиственница сибирская": "tumba_tv_belyj-sibirskaya_listvinnica_jpeg_288256.jpg",
-  "Слоновая кость / Лиственница сибирская": "tumba_tv_slonovaya_kost-sibirskaya_listvinnica_jpeg_603072.jpg"
- },
- "tumba-1": {
-  "Белый / Лиственница сибирская": "tumba_1bel_0.jpg"
- },
- "tumba-1-2": {
-  "Орех / Орех американский": "tumba-2_2.jpg",
-  "Белый / Лиственница сибирская": "198_tumba_s_dv_yashch.jpg"
- },
- "tumba-2": {
-  "Белый / Лиственница сибирская": "tumba_2.jpg"
- },
- "tumba-4": {
-  "Орех / Орех американский": "tumba_prikrovatnaya_s_frezerovkoj-oreh_png.png",
-  "Белый / Лиственница сибирская": "tumba_prikrovatnaya_s_frezerovkoj_jpeg.jpg"
- },
- "gostinaya-lofti": {
-  "Капучино / Дуб Канзас": "stellazh1_png_2.png",
-  "Слоновая кость / Лиственница сибирская": "shkaf_shr2_slonovaya_kost-sibirskaya_listvinnica_jpeg.jpg"
- },
  "stellazh-lofti": {
-  "Антрацит / Дуб Канзас": "komod_jpeg_3_082417.jpg",
+  "Антрацит / Дуб Канзас": "stellazh1_png_2_701601.png",
+  "Голубой лён": "stellazh1_446249.jpg",
   "Капучино / Дуб Канзас": "stellazh_korichnevyj_jpeg_541218.jpg",
   "Слоновая кость / Лиственница сибирская": "stelazh_slonovaya_kost-sibirskaya_listvinnica_jpeg_603308.jpg",
   "Белый лотос / Лиственница сибирская": "stelazh_belyj-sibirskaya_listvinnica_jpeg_593338.jpg"
  },
- "stol-grand-razdvizhnoj": {
-  "Столешница бетон лайт / Ножки белые": "grand_beton_pajn_belyj.jpg",
-  "Столешница бетон лайт / Ножки чёрные": "grand-beton_pajn-chernyj.jpg"
+ "komod-lofti": {
+  "Антрацит / Дуб Канзас": "komod_jpeg_3_082417.jpg",
+  "Голубой лён": "komod_jpeg_1.jpg",
+  "Капучино / Дуб Канзас": "komod_korichnevyj_jpeg.jpg",
+  "Слоновая кость / Лиственница сибирская": "komod_slonovaya_kost-sibirskaya_listvinnica_jpeg_1.jpg",
+  "Белый лотос / Лиственница сибирская": "komod_belyj-sibirskaya_listvinnica_jpeg_1.jpg"
  },
- "taburet-3": {
-  "Ткань серая": "165_taburet_no3_slonovaya_kost_1.jpg",
-  "Ткань коричневая": "152_taburet_no3_kapuchino.jpg"
+ "shkaf-lofti-2": {
+  "Антрацит / Дуб Канзас": "shkaf_jpeg_3_625803.jpg",
+  "Голубой лён": "shkaf_jpeg_157545.jpg",
+  "Капучино / Дуб Канзас": "shkaf_korichnevyj_jpeg_694249.jpg",
+  "Слоновая кость / Лиственница сибирская": "shkaf_shr2_slonovaya_kost-sibirskaya_listvinnica_jpeg_935620.jpg",
+  "Белый лотос / Лиственница сибирская": "shkaf_shr2_belyj-sibirskaya_listvinnica_jpeg_419182.jpg"
  }
 }
