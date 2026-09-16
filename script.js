@@ -740,6 +740,60 @@ function initCatalog() {
 }
 
 /* -------------------------- Страница: товар -------------------------- */
+/* --------------------------- Просмотр фотографии ---------------------------
+   Снимок в карточке открывается на весь экран: у мебели важны детали
+   фасада и фурнитуры, а в обычном размере их не разглядеть. */
+function openViewer(product, startIndex, total) {
+  let i = startIndex;
+  const box = document.createElement('div');
+  box.className = 'viewer is-on';
+  box.innerHTML = `
+    <img alt="${product.title}">
+    <button class="viewer-close" type="button" aria-label="Закрыть">✕</button>
+    ${total > 1 ? `
+      <button class="viewer-nav viewer-nav--prev" type="button" aria-label="Предыдущее фото">‹</button>
+      <button class="viewer-nav viewer-nav--next" type="button" aria-label="Следующее фото">›</button>
+      <span class="viewer-count"></span>` : ''}`;
+  document.body.appendChild(box);
+  document.body.style.overflow = 'hidden';
+
+  const img = $('img', box);
+  const count = $('.viewer-count', box);
+
+  const show = () => {
+    img.dataset.img = product.id;
+    if (i > 0) img.dataset.variant = i; else delete img.dataset.variant;
+    loadImage(img);
+    if (count) count.textContent = `${i || 1} / ${total}`;
+  };
+
+  const close = () => {
+    box.remove();
+    document.body.style.overflow = '';
+    document.removeEventListener('keydown', onKey);
+  };
+
+  const step = (d) => {
+    i = ((i - 1 + d + total) % total) + 1;
+    show();
+  };
+
+  function onKey(e) {
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowLeft') step(-1);
+    if (e.key === 'ArrowRight') step(1);
+  }
+
+  box.addEventListener('click', (e) => {
+    if (e.target === box || e.target.closest('.viewer-close')) { close(); return; }
+    if (e.target.closest('.viewer-nav--prev')) step(-1);
+    if (e.target.closest('.viewer-nav--next')) step(1);
+  });
+  document.addEventListener('keydown', onKey);
+
+  show();
+}
+
 function initProduct() {
   const host = $('#product');
   if (!host) return;
@@ -868,6 +922,14 @@ function initProduct() {
         if (thumbs.querySelectorAll('.pd-thumb').length < 2) thumbs.remove();
       })
     );
+  }
+
+  const media = $('.pd-media', host);
+  if (media) {
+    media.addEventListener('click', () => {
+      const cur = Number($('img[data-img]', media)?.dataset.variant || 0);
+      openViewer(p, cur, Math.max(shots || 1, cur || 1));
+    });
   }
 
   const priceEl = $('[data-price]', host);
